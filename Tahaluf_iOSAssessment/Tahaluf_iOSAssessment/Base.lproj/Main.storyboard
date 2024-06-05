@@ -47,7 +47,6 @@
         <!--Navigation Controller-->
         <scene sceneID="V4d-xN-8Qk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lg2-Cp-PW1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KXo-Ri-8z6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LvQ-xG-MHp">
@@ -59,6 +58,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xv8-aU-3T4"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lg2-Cp-PW1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119.84732824427481" y="3.5211267605633805"/>
         </scene>
@@ -128,7 +128,9 @@
                             <constraint firstItem="Rh6-io-9j3" firstAttribute="leading" secondItem="10q-QE-o4E" secondAttribute="leading" constant="10" id="lqP-vk-5hy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Ueb-ym-ETe"/>
+                    <navigationItem key="navigationItem" id="Ueb-ym-ETe">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="Vvs-k3-3gC"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblUniversityCountry" destination="IW4-zL-mKq" id="RW4-ta-xMw"/>
                         <outlet property="lblUniversityCountryCode" destination="DlB-ao-5ve" id="hex-Qd-9np"/>
